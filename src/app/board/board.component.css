@@ -1,0 +1,52 @@
+
+
+.board {
+  margin: 50px auto;
+  width: 300px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  border: 2px solid #333;
+  font-size: 36px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #f8f9fa; 
+}
+
+.cell:hover {
+  background-color: #e9ecef; 
+}
+
+.winner {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #dc3545; 
+}
+
+.reset-button {
+  margin-top: 20px;
+}
+
+.reset-button button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff; 
+  color: #fff; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reset-button button:hover {
+  background-color: #0056b3; 
+}
